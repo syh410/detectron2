@@ -7,7 +7,7 @@ on:
 jobs:
   docker:
     runs-on: ubuntu-18.04
-    if: github.actor == github.event.repository.owner.login
+#     if: github.actor == github.event.repository.owner.login
 
     steps:
       - name: Check out the repo
